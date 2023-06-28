@@ -1,0 +1,10 @@
+// 1. Crie um objeto em JavaScript para colocar dois atributos de um
+// produto. Atribua o preço e descrição do produto com o valor “90” e a
+// descrição com o valor “Mouse”. Mostre no console o valor dos dois
+// atributos.
+let lista = []
+lista[0] = { preco: 90, descricao: "Mouse" }
+
+for (item of lista) {
+    console.log(item);
+}
